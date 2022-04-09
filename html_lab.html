@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="fname">Name:</label><br>
+        <input type="text" placeholder="Enter your name" id="fname" value="test@example.com" maxlength="25" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email"  placeholder="Enter your email" id="email" autofocus required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" placeholder="Enter password" id="password" minlength="6" required><br><br>
+        <label for="cars">Category:</label>
+        <select name="category" id="category" required>
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="freelancer" selected >Freelancer</option>
+        </select><br><br>
+        <label for="date">Event Date:</label><br>
+        <input type="date" id="date" required><br><br>
+        <label >Tickets:</label>
+        <input type="radio" id="1 ticket" required>
+        <label for="1 ticket">1 Ticket</label>
+        <input type="radio" id="2 ticket" checked>
+        <label for="2 ticket">2 Tickets</label>
+        <input type="radio" id="3 ticket">
+        <label for="3 ticket">3 Tickets</label><br><br>
+        <label for="checkbox">Online payment</label>
+        <input type="checkbox" id="checkbox" required><br><br>
+        <label for="notes">Notes:</label><br>
+        <textarea id="notes" placeholder="Add your notes" name="notes" rows="5" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+    
+</body>
+</html>
